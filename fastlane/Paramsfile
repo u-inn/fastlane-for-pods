@@ -1,0 +1,6 @@
+# Set your parameters in the following
+
+PROJECT_NAME = 'xxxxx' #  The project name of your the pod, ie UInnKit
+REPO_NAME = 'xxxxxx' # The repository name of your private pods spec, ie xxxspec, can be nil
+SOURCES = ['xxxxxxxx'] # The git repository of your pod, ie git@gitlab.corp.com:xxxx/xxxxSpec.git
+USE_LIBRARIES = true # true or false
