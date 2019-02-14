@@ -83,10 +83,9 @@ platform :ios do
 		allow_warnings: true)
     else
       # pod trunk push 'spec_path'
-      pod_push(sources: sources, 
-	path: spec_path, 
-	use_libraries: use_libraries,
-	allow_warnings: true)
+      pod_push(path: spec_path, 
+		use_libraries: use_libraries,
+		allow_warnings: true)
     end
   end
 end
